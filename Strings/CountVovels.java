@@ -4,6 +4,7 @@ public class CountVovels {
     public static void main(String[] args) {
         String str = "Hello worlds";
         str = str.toLowerCase();
+        
         int Vovelcount = 0;
         int constCount = 0;
         for (int i = 0; i < str.length(); i++) {

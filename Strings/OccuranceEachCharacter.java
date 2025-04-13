@@ -28,5 +28,14 @@ public class OccuranceEachCharacter {
         for(Map.Entry<Character,Integer> entry : charMapCount.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
+
+        // more simple way
+
+        // By using HashMap the character displayed any of order
+        for (Character c : str2){
+            charMapCount.put(c, charMapCount.getOrDefault(c,0) + 1);
+        }
+        // first way to printing character
+        System.out.println(charMapCount);
     }
 }
