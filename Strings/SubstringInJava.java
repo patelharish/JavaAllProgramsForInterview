@@ -9,5 +9,7 @@ public class SubstringInJava {
         String str3 = str.substring(3,7); // 3 is starting index, 7 is ending index
         System.out.println(str3); // name
 
+        System.out.println(str.substring(0,1));
+
     }
 }
