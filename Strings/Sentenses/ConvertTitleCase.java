@@ -5,6 +5,7 @@ public class ConvertTitleCase {
         String[] str = word.split(" ");
         StringBuilder titleCase = new StringBuilder();
 
+        //enhanced loop
         for(String words : str){
             titleCase.append(Character.toUpperCase(words.charAt(0)))
                     .append(words.substring(1))

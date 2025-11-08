@@ -22,7 +22,7 @@ public class MoveAllNegativeEleOneSide {
         }
         System.out.println(Arrays.toString(arr));
     }
-
+    // swapping and navigating
     public static void swapToFirstNegative(int[] arr){
         int j = arr.length-1;
         for(int i=arr.length-1; i>=0; i--){
