@@ -2,6 +2,7 @@ package Strings.manipulation;
 
 public class A2B3C4 {
     public static void main(String[] args) {
+        //"A2B3C4D5" = AABBBCCCCDDDDD
         String str = "A2B3C4D5";
         char[] ch = str.toCharArray();
         StringBuilder result = new StringBuilder();

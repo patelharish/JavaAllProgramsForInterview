@@ -14,7 +14,7 @@ public class FindTheFirstMissingNumber {
             sum1 += n; //or sum1 = sum1+n; // sum of all given array(without missing)
         }
         for(int i=0; i<=fullSize; i++){
-            sum2 += i; // sum of all given missing lengh numbers
+            sum2 += i; // sum of all given missing length numbers
         }
         int missing = sum2-sum1;
         System.out.println("Missing number is: "+missing);
