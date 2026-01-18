@@ -32,6 +32,8 @@ public class reverseArray {
             start++;
             end--;
         }
-        System.out.println(Arrays.toString(arr));
+
+        String str = Arrays.toString(arr);
+        System.out.println(str);
     }
 }

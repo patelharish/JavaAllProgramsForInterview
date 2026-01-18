@@ -22,5 +22,14 @@ public class SumofDigitsinString {
             sum += Integer.parseInt(sb.toString());
         }
         System.out.println(sum);
+
+        // using regex
+        String[] str3 = str.split("\\D+");
+        int sum2 = 0;
+        for(String s: str3){
+            int n = Integer.parseInt(s);
+            sum2 += n;
+        }
+        System.out.println("using regex: "+sum2);
     }
 }
