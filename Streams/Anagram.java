@@ -16,7 +16,7 @@ public class Anagram {
         String sorted2 = Arrays.stream(str2.split("")).sorted().collect(Collectors.joining());
 
         if(sorted1.equals(sorted2)){
-            System.out.println("Both the strings are anagram");
+            System.out.println("Both strings are anagram");
         }else{
             System.out.println("given strings are not anagram");
         }
