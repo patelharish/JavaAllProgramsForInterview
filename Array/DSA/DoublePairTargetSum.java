@@ -1,5 +1,7 @@
 package Array.DSA;
 
+import java.util.HashSet;
+
 public class DoublePairTargetSum {
     public static void main(String[] args) {
         int[] num = {1,2,3,4,5,6};
@@ -13,5 +15,18 @@ public class DoublePairTargetSum {
                 }
             }
         }
+
+
+        //second approach using set
+        HashSet<Integer> hs = new HashSet<>();
+
+        for(int n1 : num) {
+            int complement = target - n1;
+            if (hs.contains(complement)) {
+                System.out.println(complement + ", " + n1);
+            }
+            hs.add(n1);
+        }
+
     }
 }
